@@ -1,0 +1,31 @@
+name: BasicLobby
+version: "1.1pre"
+main: cz.ignissak.bllobby.Core
+commands:
+  profil:
+    description: Profil hrace
+    usage: /<command>
+    aliases: [profile]
+  basiclobby:
+    description: Hlavni prikaz pluginu BasicLobby
+    usage: /<command>
+    aliases: [bl]
+  odmeny:
+    description: Denni odmeny
+    usage: /<command>
+    aliases: [denniodmeny, dw]
+  smenarna:
+    description: Smenarna pro tokeny
+    usage: /<command>
+  penize:
+    description: Objednej si tokeny
+    usage: /<command>
+  vip:
+    description: Objednej si VIP rank
+    usage: /<command>
+  velikonocnihlavy:
+    description: Velikonocni hlavy
+    usage: /<command>
+  help:
+    description: Hlavni prikaz pro hrace
+    usage: /<command>

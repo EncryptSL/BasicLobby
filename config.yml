@@ -1,0 +1,29 @@
+# Nastaveni databaze
+# Povinna pro funkci profilu
+mysql:
+  use: true
+  host: mysql.hicoria.com
+  port: 3306
+  user: mysql_3204
+  database: mysql_3204
+  password: 8DRwY0IX
+  
+# Sprava dennich odmen
+dailyrewards:
+  enabled: false
+  message: "Pripoj se na Vote server pro vyzdvihnuti odmeny"
+
+motd:
+- ''
+- §fVitej na §3Basiclandu§f.
+- §fVyber si server pomoci §3kompasu§f.
+- ''
+- §e[NOVINKA]§f SkyWars - 5 novych Insane map a 1 TNTMadness mapa pro 8
+- §e[NOVINKA]§f Byl pozmenen zpusob vyzvedavani odmen na Lobby z hlasovani. Vsechny
+  vase kupony byly presunuty na zvlastni server /vote.
+- §e[NOVINKA]§f V patek se otevrel Vanilla server. Prihlasky piste na forum.
+- §e[NOVINKA]§f Novy /profil!
+- ''
+- §3[WEB]§f www.basicland.cz
+- §3[TS3]§f ts3.basicland.cz
+- §3[DISCORD]§f www.basicland.cz/discord

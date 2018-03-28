@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="BasicLobby">
+    <output-path>$PROJECT_DIR$/../GitHub/iGniSsio creations</output-path>
+    <root id="archive" name="BasicLobby.jar">
+      <element id="module-output" name="BasicLobby" />
+    </root>
+  </artifact>
+</component>

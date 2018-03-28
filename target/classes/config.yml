@@ -1,0 +1,49 @@
+# Nastaveni databaze
+# Povinna pro funkci profilu
+mysql:
+  use: false
+  host: 'localhost'
+  port: 3306
+  user: 'root'
+  database: 'database'
+  password: ''
+  minimumConnections: 2
+  maximumConnections: 5
+  timeout: 3500
+
+# Sprava dennich odmen
+dailyrewards:
+  enabled: false
+  message: "Pripoj se na Vote server pro vyzdvihnuti odmeny"
+
+smenarna:
+  enabled: false
+  message: "Smenarna zde neni povolena."
+  cooldown: 30
+
+doublejump:
+  enabled-in:
+  - world
+
+# Sprava pocasi
+weather:
+  enabled: false
+  disabled-in:
+  - most
+
+# Zprava, ktera se zobrazi pri joinuti na Lobby
+motd:
+- ''
+- '§fVitej na §3Basiclandu§f.'
+- '§fVyber si server pomoci §3kompasu§f.'
+- ''
+- '§e[NOVINKA]§f KitPvP - nove upgrade, stridani map, challenge a ranky'
+- '§e[NOVINKA]§f SkyWars - 5 novych Insane map a 1 TNTMadness mapa pro 8'
+- '§e[NOVINKA]§f Byl pozmenen zpusob vyzvedavani odmen na Lobby z hlasovani. Vsechny
+  vase kupony byly presunuty na zvlastni server /vote.'
+- '§e[NOVINKA]§f V patek se otevrel Vanilla server. Prihlasky piste na forum.'
+- ''
+- '§3[WEB]§f www.basicland.cz'
+- '§3[TS3]§f ts3.basicland.cz'
+- '§3[DISCORD]§f www.basicland.cz/discord'
+- ''
