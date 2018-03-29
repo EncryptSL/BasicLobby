@@ -1,6 +1,7 @@
 F:\BasicLobby\src\main\java\cz\ignissak\bllobby\gui\Smenarna.java
 F:\BasicLobby\src\main\java\cz\ignissak\bllobby\commands\SmenarnaCmd.java
 F:\BasicLobby\src\main\java\cz\ignissak\bllobby\commands\VelikonocniHlavyCmd.java
+F:\BasicLobby\src\main\java\cz\ignissak\bllobby\commands\OdmenyCmd.java
 F:\BasicLobby\src\main\java\cz\ignissak\bllobby\listeners\PlayerJoin.java
 F:\BasicLobby\src\main\java\cz\ignissak\bllobby\listeners\PlayerChat.java
 F:\BasicLobby\src\main\java\cz\ignissak\bllobby\gui\Profil.java

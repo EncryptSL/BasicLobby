@@ -24,6 +24,7 @@ cz\ignissak\bllobby\gui\Help.class
 cz\ignissak\bllobby\listeners\InventoryClick$4.class
 cz\ignissak\bllobby\commands\SmenarnaCmd.class
 cz\ignissak\bllobby\gui\Smenarna.class
+cz\ignissak\bllobby\commands\OdmenyCmd.class
 cz\ignissak\bllobby\commands\HelpCmd.class
 cz\ignissak\bllobby\commands\PenizeCmd.class
 cz\ignissak\bllobby\utils\TPSChecker.class

@@ -85,7 +85,7 @@ public final class Core extends JavaPlugin {
     public void registerCommands() {
         getCommand("profil").setExecutor(new ProfilCmd());
         getCommand("basiclobby").setExecutor(new BasicLobbyCmd());
-        getCommand("odmeny").setExecutor(new DailyRewardCmd());
+        getCommand("odmeny").setExecutor(new OdmenyCmd());
         getCommand("help").setExecutor(new HelpCmd());
         getCommand("smenarna").setExecutor(new SmenarnaCmd());
         getCommand("penize").setExecutor(new PenizeCmd());

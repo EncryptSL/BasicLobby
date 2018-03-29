@@ -14,11 +14,9 @@ public class DailyRewardCmd implements CommandExecutor {
         if (args.length == 0) {
             if (Core.getInstance().getConfig().getBoolean("dailyrewards.enabled") == true) {
                 Player player = (Player) sender;
-                if (sender instanceof Player) {
                     DailyRewards dw = new DailyRewards();
                     dw.DRewards(player);
                     return true;
-                }
             } else {
                 sender.sendMessage(Core.getInstance().getConfig().getString("dailyrewards.message"));
                 return true;
