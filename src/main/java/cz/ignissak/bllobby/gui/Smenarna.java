@@ -38,7 +38,7 @@ public class Smenarna {
         oneLore.add("§7Velika sance dostat common");
         oneLore.add("§7doplnky a mala sance ziskat");
         oneLore.add("§7vzacne doplnky.");
-        oneLore.add("§7Cena: §9§m300§ 225 tokenu");
+        oneLore.add("§7Cena: §9§m300§9 225 tokenu");
         oneMeta.setLore(oneLore);
         one.setItemMeta(oneMeta);
 
