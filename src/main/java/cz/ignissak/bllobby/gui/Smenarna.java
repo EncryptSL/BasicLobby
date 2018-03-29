@@ -38,7 +38,7 @@ public class Smenarna {
         oneLore.add("§7Velika sance dostat common");
         oneLore.add("§7doplnky a mala sance ziskat");
         oneLore.add("§7vzacne doplnky.");
-        oneLore.add("§7Cena: §9300 tokenu");
+        oneLore.add("§7Cena: §9§m300§ 225 tokenu");
         oneMeta.setLore(oneLore);
         one.setItemMeta(oneMeta);
 
@@ -51,7 +51,7 @@ public class Smenarna {
         twoLore.add("§7Velka sance dostat common");
         twoLore.add("§7doplnky a vetsi sance ziskat");
         twoLore.add("§7rare nebo epic doplnky.");
-        twoLore.add("§7Cena: §9500 tokenu");
+        twoLore.add("§7Cena: §9§m500§9 375 tokenu");
         twoMeta.setLore(twoLore);
         two.setItemMeta(twoMeta);
 
@@ -64,7 +64,7 @@ public class Smenarna {
         threeLore.add("§7Mensi sance dostat common");
         threeLore.add("§7doplnky a velka sance ziskat");
         threeLore.add("§7rare nebo epic doplnky.");
-        threeLore.add("§7Cena: §9750 tokenu");
+        threeLore.add("§7Cena: §9§m750§9 565 tokenu");
         threeMeta.setLore(threeLore);
         three.setItemMeta(threeMeta);
 
@@ -77,7 +77,7 @@ public class Smenarna {
         fourLore.add("§7Mensi sance dostat common");
         fourLore.add("§7doplnky a velka sance ziskat");
         fourLore.add("§7rare nebo epic doplnky.");
-        fourLore.add("§7Cena: §91000 tokenu");
+        fourLore.add("§7Cena: §9§m1000§9 750 tokenu");
         fourMeta.setLore(fourLore);
         four.setItemMeta(fourMeta);
 
@@ -90,7 +90,7 @@ public class Smenarna {
         fiveLore.add("§7Mala sance dostat common");
         fiveLore.add("§7doplnky a velika sance ziskat");
         fiveLore.add("§7rare, epic nebo legendarni doplnky.");
-        fiveLore.add("§7Cena: §91250 tokenu");
+        fiveLore.add("§7Cena: §9§m1250§9 940 tokenu");
         fiveMeta.setLore(fiveLore);
         five.setItemMeta(fiveMeta);
 

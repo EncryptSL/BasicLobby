@@ -30,7 +30,7 @@ public class DailyRewards {
         ArrayList<String> dailyyLore = new ArrayList<String>();
         dailyyLore.add("");
         dailyyLore.add("§7Tuto odmenu si muzes vyzvednout");
-        dailyyLore.add("§7kazdy den a ziskat 50 tokenu.");
+        dailyyLore.add("§7kazdy den a ziskat 50 + 10% tokenu.");
         dailyyLore.add("");
         dailyyLore.add("§aKlikni pro vyzdvihnuti.");
         dailyyMeta.setLore(dailyyLore);
@@ -45,7 +45,7 @@ public class DailyRewards {
         ArrayList<String> dailynLore = new ArrayList<String>();
         dailynLore.add("");
         dailynLore.add("§7Tuto odmenu si muzes vyzvednout");
-        dailynLore.add("§7kazdy den a ziskat 50 tokenu.");
+        dailynLore.add("§7kazdy den a ziskat 50 + 10% tokenu.");
         dailynLore.add("");
         dailynLore.add("§cPockej jeste " + hodky + "h a " + minutky + "m" + " §cpred vyzdvihnutim.");
         dailynMeta.setLore(dailynLore);
@@ -58,7 +58,7 @@ public class DailyRewards {
         dailygoldyLore.add("");
         dailygoldyLore.add("§7Tuto odmenu si muzes vyzvednout");
         dailygoldyLore.add("§7kazdy den pokud mas GOLD VIP a vys");
-        dailygoldyLore.add("§7a ziskat 150 tokenu.");
+        dailygoldyLore.add("§7a ziskat 150 + 10% tokenu.");
         dailygoldyLore.add("");
         dailygoldyLore.add("§aKlikni pro vyzdvihnuti.");
         goldMetay.setLore(dailygoldyLore);
@@ -74,7 +74,7 @@ public class DailyRewards {
         dailygoldnLore.add("");
         dailygoldnLore.add("§7Tuto odmenu si muzes vyzvednout");
         dailygoldnLore.add("§7kazdy den pokud mas GOLD VIP a vys");
-        dailygoldnLore.add("§7a ziskat 150 tokenu.");
+        dailygoldnLore.add("§7a ziskat 150 + 10% tokenu.");
         dailygoldnLore.add("");
         dailygoldnLore.add("§cPockej jeste " + hodky + "h a " + minutky + "m" + " §cpred vyzdvihnutim.");
         goldMetan.setLore(dailygoldnLore);
@@ -87,7 +87,7 @@ public class DailyRewards {
         dailygoldvLore.add("");
         dailygoldvLore.add("§7Tuto odmenu si muzes vyzvednout");
         dailygoldvLore.add("§7kazdy den pokud mas GOLD VIP a vys");
-        dailygoldvLore.add("§7a ziskat 150 tokenu.");
+        dailygoldvLore.add("§7a ziskat 150 + 10% tokenu.");
         dailygoldvLore.add("");
         dailygoldvLore.add("§cMusis mit GOLD VIP.");
         goldMetav.setLore(dailygoldvLore);
@@ -117,7 +117,7 @@ public class DailyRewards {
                 i.setItem(13 + 9, dailygoldn);
             }
         }
-        i.setItem(14, comingsoon);
+        i.setItem(14 + 9, comingsoon);
         i.setItem(0, empty);
         i.setItem(1, empty);
         i.setItem(2, empty);
