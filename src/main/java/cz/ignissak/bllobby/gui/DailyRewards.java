@@ -104,17 +104,17 @@ public class DailyRewards {
         comingsoon.setItemMeta(csMeta);
 
         if (sql.getDWPrvaCooldown(p) < System.currentTimeMillis() || sql.getDWPrvaCooldown(p) == 0) {
-            i.setItem(12, dailyy);
+            i.setItem(12 + 9, dailyy);
         } else if (sql.getDWPrvaCooldown(p) > System.currentTimeMillis()) {
-            i.setItem(12, dailyn);
+            i.setItem(12 + 9, dailyn);
         }
         if (!(p.hasPermission("basicland.gold"))) {
-            i.setItem(13, dailygoldv);
+            i.setItem(13 + 9, dailygoldv);
         } else if (p.hasPermission("basicland.gold") || p.hasPermission("*")){
             if (sql.getDWDruhaCooldown(p) < System.currentTimeMillis() || sql.getDWDruhaCooldown(p) == 0) {
-                i.setItem(13, dailygoldy);
+                i.setItem(13 + 9, dailygoldy);
             } else if (sql.getDWDruhaCooldown(p) > System.currentTimeMillis()) {
-                i.setItem(13, dailygoldn);
+                i.setItem(13 + 9, dailygoldn);
             }
         }
         i.setItem(14, comingsoon);
@@ -142,7 +142,6 @@ public class DailyRewards {
         i.setItem(42, empty);
         i.setItem(43, empty);
         i.setItem(44, empty);
-        i.setItem(45, empty); //5 riadok
 
 
 
