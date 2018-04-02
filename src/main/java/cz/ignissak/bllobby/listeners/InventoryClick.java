@@ -23,7 +23,7 @@ public class InventoryClick implements Listener {
             e.setCancelled(true);
         } if (e.getInventory().getTitle().equals("§8Odmeny")) {
             e.setCancelled(true);
-            if (e.getSlot() == 12) {
+            if (e.getSlot() == 12 + 9) {
                 if (e.getCurrentItem().getItemMeta().getDisplayName().contains("§aDenni odmena")) {
                     sql.setDWPrvaCooldown(p);
                     Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "token give " + e.getWhoClicked().getName() + " 55");
@@ -36,7 +36,7 @@ public class InventoryClick implements Listener {
                     p.playSound(e.getWhoClicked().getLocation(), Sound.BLOCK_ANVIL_PLACE, 1, 0);
                     return;
                 }
-            } else if (e.getSlot() == 13) {
+            } else if (e.getSlot() == 13 + 9) {
                 if (e.getCurrentItem().getItemMeta().getDisplayName().contains("§aDenni odmena (GOLD)")) {
                     sql.setDWDruhaCooldown(p);
                     Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "token give " + e.getWhoClicked().getName() + " 165");
@@ -49,7 +49,7 @@ public class InventoryClick implements Listener {
                     p.playSound(e.getWhoClicked().getLocation(), Sound.BLOCK_ANVIL_PLACE, 1, 0);
                     return;
                 }
-            }else if (e.getSlot() == 14) {
+            }else if (e.getSlot() == 14 + 9) {
                     p.playSound(e.getWhoClicked().getLocation(), Sound.BLOCK_ANVIL_PLACE, 1, 0);
                     return;
                 }

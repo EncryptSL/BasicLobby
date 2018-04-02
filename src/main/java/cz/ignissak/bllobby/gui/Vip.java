@@ -12,27 +12,27 @@ public class Vip {
     public void VipMenu(Player p) {
         Inventory i = Bukkit.getServer().createInventory(null, 45, "§8VIP");
 
-        ItemStack ironcz = ItemFactory.create(Material.IRON_BLOCK, (byte) 0, "§7IRON", "§cSMS pro CR", "§f", "§7Cena: §f50 kc", "§7Delka trvani: §f30 dni", "§7Cislo: §f9033350", "§7Tvar: §fcsmc s122151 " + p.getName(),
+        ItemStack ironcz = ItemFactory.create(Material.IRON_BLOCK, (byte) 0, "§7IRON", "§cSMS pro CR", "§f", "§7Cena: §f50 kc", "§7Delka trvani: §f30 + 5 dni", "§7Cislo: §f9033350", "§7Tvar: §fcsmc s122151 " + p.getName(),
                 "§f", "§7Cena: §f149 kc", "§7Delka trvani: §fPERMA", "§7Cislo: §f90333", "§7Tvar: §fcsmc 149 s122151 " + p.getName());
         i.setItem(10, ironcz);
 
-        ItemStack ironsk = ItemFactory.create(Material.IRON_BLOCK, (byte) 0, "§7IRON", "§cSMS pro SR", "§f", "§7Cena: §f2 EUR", "§7Delka trvani: §f30 dni", "§7Cislo: §f8877", "§7Tvar: §fcsmc 2 s122151 " + p.getName(),
+        ItemStack ironsk = ItemFactory.create(Material.IRON_BLOCK, (byte) 0, "§7IRON", "§cSMS pro SR", "§f", "§7Cena: §f2 EUR", "§7Delka trvani: §f30 + 5 dni", "§7Cislo: §f8877", "§7Tvar: §fcsmc 2 s122151 " + p.getName(),
         "§f", "§7Cena: §f6 EUR", "§7Delka trvani: §fPERMA", "§7Cislo: §f8877", "§7Tvar: §fcsmc 6 s122151 " + p.getName());
         i.setItem(19, ironsk);
 
-        ItemStack goldcz = ItemFactory.create(Material.GOLD_BLOCK, (byte) 0, "§6GOLD", "§cSMS pro CR", "§f", "§6Cena: §f79 kc", "§6Delka trvani: §f30 dni", "§6Cislo: §f9033379", "§6Tvar: §fcsmc s122151 " + p.getName(),
+        ItemStack goldcz = ItemFactory.create(Material.GOLD_BLOCK, (byte) 0, "§6GOLD", "§cSMS pro CR", "§f", "§6Cena: §f79 kc", "§6Delka trvani: §f30 + 5 dni", "§6Cislo: §f9033379", "§6Tvar: §fcsmc s122151 " + p.getName(),
                 "§f", "§6Cena: §f249 kc", "§6Delka trvani: §fPERMA", "§6Cislo: §f90333", "§6Tvar: §fcsmc 249 s122151 " + p.getName());
         i.setItem(12, goldcz);
 
-        ItemStack goldsk = ItemFactory.create(Material.GOLD_BLOCK, (byte) 0, "§6GOLD", "§cSMS pro SR", "§f", "§6Cena: §f3 EUR", "§6Delka trvani: §f30 dni", "§6Cislo: §f8877", "§6Tvar: §fcsmc 3 s122151 " + p.getName(),
+        ItemStack goldsk = ItemFactory.create(Material.GOLD_BLOCK, (byte) 0, "§6GOLD", "§cSMS pro SR", "§f", "§6Cena: §f3 EUR", "§6Delka trvani: §f30 + 5 dni", "§6Cislo: §f8877", "§6Tvar: §fcsmc 3 s122151 " + p.getName(),
                 "§f", "§6Cena: §f10 EUR ", "§6Delka trvani: §fPERMA", "§6Cislo: §f8877", "§6Tvar: §fcsmc 10 s122151 " + p.getName());
         i.setItem(21, goldsk);
 
-        ItemStack diacz = ItemFactory.create(Material.DIAMOND_BLOCK, (byte) 0, "§bDIAMOND", "§cSMS pro CR", "§f", "§bCena: §f99 kc", "§bDelka trvani: §f30 dni", "§bCislo: §f9033399", "§bTvar: §fcsmc s122151 " + p.getName(),
+        ItemStack diacz = ItemFactory.create(Material.DIAMOND_BLOCK, (byte) 0, "§bDIAMOND", "§cSMS pro CR", "§f", "§bCena: §f99 kc", "§bDelka trvani: §f30 + 5 dni", "§bCislo: §f9033399", "§bTvar: §fcsmc s122151 " + p.getName(),
                 "§f", "§bCena: §f299 kc", "§bDelka trvani: §fPERMA", "§bCislo: §f90333", "§bTvar: §fcsmc 299 s122151 " + p.getName());
         i.setItem(14, diacz);
 
-        ItemStack diask = ItemFactory.create(Material.DIAMOND_BLOCK, (byte) 0, "§bDIAMOND", "§cSMS pro SR", "§f", "§bCena: §f4 EUR", "§bDelka trvani: §f30 dni", "§bCislo: §f8877", "§bTvar: §fcsmc 4 s122151 " + p.getName(),
+        ItemStack diask = ItemFactory.create(Material.DIAMOND_BLOCK, (byte) 0, "§bDIAMOND", "§cSMS pro SR", "§f", "§bCena: §f4 EUR", "§bDelka trvani: §f30 + 5 dni", "§bCislo: §f8877", "§bTvar: §fcsmc 4 s122151 " + p.getName(),
                 "§f", "§bCena: §f12 EUR ", "§bDelka trvani: §fPERMA", "§bCislo: §f8877", "§bTvar: §fcsmc 12 s122151 " + p.getName());
         i.setItem(23, diask);
 
