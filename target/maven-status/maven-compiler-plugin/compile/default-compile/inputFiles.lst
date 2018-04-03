@@ -13,6 +13,7 @@ F:\BasicLobby\src\main\java\cz\ignissak\bllobby\Core.java
 F:\BasicLobby\src\main\java\cz\ignissak\bllobby\SQLManager.java
 F:\BasicLobby\src\main\java\cz\ignissak\bllobby\gui\Help.java
 F:\BasicLobby\src\main\java\cz\ignissak\bllobby\gui\Penize.java
+F:\BasicLobby\src\main\java\cz\ignissak\bllobby\utils\BungeeFactory.java
 F:\BasicLobby\src\main\java\cz\ignissak\bllobby\commands\VipCmd.java
 F:\BasicLobby\src\main\java\cz\ignissak\bllobby\commands\HelpCmd.java
 F:\BasicLobby\src\main\java\cz\ignissak\bllobby\listeners\DoubleJump.java

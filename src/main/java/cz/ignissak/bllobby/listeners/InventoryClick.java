@@ -26,8 +26,8 @@ public class InventoryClick implements Listener {
             if (e.getSlot() == 12 + 9) {
                 if (e.getCurrentItem().getItemMeta().getDisplayName().contains("§aDenni odmena")) {
                     sql.setDWPrvaCooldown(p);
-                    Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "token give " + e.getWhoClicked().getName() + " 55");
-                    e.getWhoClicked().sendMessage("§aDenni odmena byla vyzdvihnuta + 10%.");
+                    Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "token give " + e.getWhoClicked().getName() + " 50");
+                    e.getWhoClicked().sendMessage("§aDenni odmena byla vyzdvihnuta.");
                     p.playSound(e.getWhoClicked().getLocation(), Sound.ENTITY_EXPERIENCE_ORB_PICKUP, 1, 0);
                     ParticleEffect.VILLAGER_HAPPY.send(Bukkit.getOnlinePlayers(), e.getWhoClicked().getLocation(), 1, 1, 1, 10, 30);
                     e.getWhoClicked().closeInventory();
@@ -39,8 +39,8 @@ public class InventoryClick implements Listener {
             } else if (e.getSlot() == 13 + 9) {
                 if (e.getCurrentItem().getItemMeta().getDisplayName().contains("§aDenni odmena (GOLD)")) {
                     sql.setDWDruhaCooldown(p);
-                    Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "token give " + e.getWhoClicked().getName() + " 165");
-                    e.getWhoClicked().sendMessage("§aDenni odmena (GOLD) byla vyzdvihnuta + 10%.");
+                    Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "token give " + e.getWhoClicked().getName() + " 150");
+                    e.getWhoClicked().sendMessage("§aDenni odmena (GOLD) byla vyzdvihnuta.");
                     p.playSound(e.getWhoClicked().getLocation(), Sound.ENTITY_EXPERIENCE_ORB_PICKUP, 1, 0);
                     ParticleEffect.VILLAGER_HAPPY.send(Bukkit.getOnlinePlayers(), e.getWhoClicked().getLocation(), 1, 1, 1, 10, 30);
                     e.getWhoClicked().closeInventory();
@@ -56,13 +56,13 @@ public class InventoryClick implements Listener {
         } if (e.getInventory().getTitle().equals("§8Smenarna")) {
             e.setCancelled(true);
             if (e.getSlot() == 20) { //1
-                if (sql.getCoins(p.getUniqueId()) >= 225) { //300
+                if (sql.getCoins(p.getUniqueId()) >= 300) { //300
                     TitleAPI.sendPlayerTitle(p, 10, 30, 10, "§a§lPLATBA USPESNA", "§fNakup byl ukoncen.");
                     Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "gmysteryboxes give " + p.getName() + " 1 1");
-                    CoinsAPI.takeCoins(p.getUniqueId(), 225);
+                    CoinsAPI.takeCoins(p.getUniqueId(), 300);
                     p.playSound(e.getWhoClicked().getLocation(), Sound.ENTITY_EXPERIENCE_ORB_PICKUP, 1, 0);
                     Core.getInstance().smenarnaCooldown.add("oncooldown");
-                    sql.addSmenarnaPenize(225);
+                    sql.addSmenarnaPenize(300);
                     sql.addSmenarnaTransakce(1);
                     new BukkitRunnable() {
                         @Override
@@ -76,13 +76,13 @@ public class InventoryClick implements Listener {
                     return;
                 }
             } if (e.getSlot() == 21) { //2
-                if (sql.getCoins(p.getUniqueId()) >= 375) { //500
+                if (sql.getCoins(p.getUniqueId()) >= 500) { //500
                     TitleAPI.sendPlayerTitle(p, 10, 30, 10, "§a§lPLATBA USPESNA", "§fNakup byl ukoncen.");
                     Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "gmysteryboxes give " + p.getName() + " 1 2");
-                    CoinsAPI.takeCoins(p.getUniqueId(), 375);
+                    CoinsAPI.takeCoins(p.getUniqueId(), 500);
                     p.playSound(e.getWhoClicked().getLocation(), Sound.ENTITY_EXPERIENCE_ORB_PICKUP, 1, 0);
                     Core.getInstance().smenarnaCooldown.add("oncooldown");
-                    sql.addSmenarnaPenize(375);
+                    sql.addSmenarnaPenize(500);
                     sql.addSmenarnaTransakce(1);
                     new BukkitRunnable() {
                         @Override
@@ -96,29 +96,9 @@ public class InventoryClick implements Listener {
                     return;
                 }
             } if (e.getSlot() == 22) { //3
-                if (sql.getCoins(p.getUniqueId()) >= 565) { //750
+                if (sql.getCoins(p.getUniqueId()) >= 750) { //750
                     TitleAPI.sendPlayerTitle(p, 10, 30, 10, "§a§lPLATBA USPESNA", "§fNakup byl ukoncen.");
                     Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "gmysteryboxes give " + p.getName() + " 1 3");
-                    CoinsAPI.takeCoins(p.getUniqueId(), 565);
-                    p.playSound(e.getWhoClicked().getLocation(), Sound.ENTITY_EXPERIENCE_ORB_PICKUP, 1, 0);
-                    Core.getInstance().smenarnaCooldown.add("oncooldown");
-                    sql.addSmenarnaPenize(565);
-                    sql.addSmenarnaTransakce(1);
-                    new BukkitRunnable() {
-                        @Override
-                        public void run() {
-                            Core.getInstance().smenarnaCooldown.remove("oncooldown");
-                        }
-                    }.runTaskLater(Core.getPlugin(Core.class), Core.getInstance().getConfig().getInt("smenarna.cooldown") * 20);
-                    p.closeInventory();
-                } else {
-                    Bukkit.getPlayer(e.getWhoClicked().getName()).getWorld().playSound(e.getWhoClicked().getLocation(), Sound.BLOCK_ANVIL_PLACE, 1, 0);
-                    return;
-                }
-            } if (e.getSlot() == 23) { //4
-                if (sql.getCoins(p.getUniqueId()) >= 750) { //1000
-                    TitleAPI.sendPlayerTitle(p, 10, 30, 10, "§a§lPLATBA USPESNA", "§fNakup byl ukoncen.");
-                    Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "gmysteryboxes give " + p.getName() + " 1 4");
                     CoinsAPI.takeCoins(p.getUniqueId(), 750);
                     p.playSound(e.getWhoClicked().getLocation(), Sound.ENTITY_EXPERIENCE_ORB_PICKUP, 1, 0);
                     Core.getInstance().smenarnaCooldown.add("oncooldown");
@@ -135,13 +115,33 @@ public class InventoryClick implements Listener {
                     Bukkit.getPlayer(e.getWhoClicked().getName()).getWorld().playSound(e.getWhoClicked().getLocation(), Sound.BLOCK_ANVIL_PLACE, 1, 0);
                     return;
                 }
+            } if (e.getSlot() == 23) { //4
+                if (sql.getCoins(p.getUniqueId()) >= 1000) { //1000
+                    TitleAPI.sendPlayerTitle(p, 10, 30, 10, "§a§lPLATBA USPESNA", "§fNakup byl ukoncen.");
+                    Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "gmysteryboxes give " + p.getName() + " 1 4");
+                    CoinsAPI.takeCoins(p.getUniqueId(), 1000);
+                    p.playSound(e.getWhoClicked().getLocation(), Sound.ENTITY_EXPERIENCE_ORB_PICKUP, 1, 0);
+                    Core.getInstance().smenarnaCooldown.add("oncooldown");
+                    sql.addSmenarnaPenize(1000);
+                    sql.addSmenarnaTransakce(1);
+                    new BukkitRunnable() {
+                        @Override
+                        public void run() {
+                            Core.getInstance().smenarnaCooldown.remove("oncooldown");
+                        }
+                    }.runTaskLater(Core.getPlugin(Core.class), Core.getInstance().getConfig().getInt("smenarna.cooldown") * 20);
+                    p.closeInventory();
+                } else {
+                    Bukkit.getPlayer(e.getWhoClicked().getName()).getWorld().playSound(e.getWhoClicked().getLocation(), Sound.BLOCK_ANVIL_PLACE, 1, 0);
+                    return;
+                }
             } if (e.getSlot() == 24) { //5
-                if (sql.getCoins(p.getUniqueId()) >= 940) { //1250
+                if (sql.getCoins(p.getUniqueId()) >= 1250) { //1250
                     TitleAPI.sendPlayerTitle(p, 10, 30, 10, "§a§lPLATBA USPESNA", "§fNakup byl ukoncen.");
                     Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "gmysteryboxes give " + p.getName() + " 1 5");
-                    CoinsAPI.takeCoins(p.getUniqueId(), 940);
+                    CoinsAPI.takeCoins(p.getUniqueId(), 1250);
                     p.playSound(e.getWhoClicked().getLocation(), Sound.ENTITY_EXPERIENCE_ORB_PICKUP, 1, 0);
-                    sql.addSmenarnaPenize(940);
+                    sql.addSmenarnaPenize(1250);
                     sql.addSmenarnaTransakce(1);
                     Core.getInstance().smenarnaCooldown.add("oncooldown");
                     new BukkitRunnable() {

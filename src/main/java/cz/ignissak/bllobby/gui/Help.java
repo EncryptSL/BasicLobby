@@ -1,6 +1,7 @@
 package cz.ignissak.bllobby.gui;
 
 import cz.ignissak.bllobby.Core;
+import cz.ignissak.bllobby.utils.BungeeFactory;
 import cz.ignissak.bllobby.utils.ItemFactory;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
@@ -115,7 +116,7 @@ public class Help implements Listener {
                 p.playSound(e.getWhoClicked().getLocation(), Sound.ENTITY_EXPERIENCE_ORB_PICKUP, 1, 0);
             } else if (e.getSlot() == 21) {
                 p.closeInventory();
-                Core.getInstance().sendToServer(p, "vote");
+                BungeeFactory.sendToServer(p, "vote");
                 p.playSound(e.getWhoClicked().getLocation(), Sound.ENTITY_EXPERIENCE_ORB_PICKUP, 1, 0);
             } else if (e.getSlot() == 22) {
                 p.closeInventory();

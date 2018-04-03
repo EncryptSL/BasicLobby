@@ -19,6 +19,7 @@ cz\ignissak\bllobby\gui\DailyRewards.class
 cz\ignissak\bllobby\commands\DailyRewardCmd.class
 cz\ignissak\bllobby\utils\TitleAPI.class
 cz\ignissak\bllobby\listeners\InventoryClick$2.class
+cz\ignissak\bllobby\utils\BungeeFactory.class
 cz\ignissak\bllobby\utils\ItemFactory.class
 cz\ignissak\bllobby\gui\Help.class
 cz\ignissak\bllobby\listeners\InventoryClick$4.class

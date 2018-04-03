@@ -7,13 +7,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c13ccc25-29c4-4e74-9116-ecec17149ff9" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/../BasicLobby/.idea/libraries/Maven__com_zaxxer_HikariCP_3_0_0_SNAPSHOT.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../BasicLobby/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_12_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/../BasicLobby/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_12_SNAPSHOT.xml" />
+      <change beforePath="$PROJECT_DIR$/../BasicLobby/.idea/libraries/Maven__org_spigotmc_spigot_api_1_12_2_R0_1_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/../BasicLobby/.idea/libraries/Maven__org_spigotmc_spigot_api_1_12_2_R0_1_SNAPSHOT.xml" />
       <change beforePath="$PROJECT_DIR$/../BasicLobby/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../BasicLobby/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/gui/Vip.java" afterPath="$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/gui/Vip.java" />
+      <change beforePath="$PROJECT_DIR$/../BasicLobby/BasicLobby.iml" afterPath="$PROJECT_DIR$/../BasicLobby/BasicLobby.iml" />
+      <change beforePath="$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/Core.java" afterPath="$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/Core.java" />
+      <change beforePath="$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/gui/DailyRewards.java" afterPath="$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/gui/DailyRewards.java" />
+      <change beforePath="$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/gui/Help.java" afterPath="$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/gui/Help.java" />
+      <change beforePath="$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/gui/Smenarna.java" afterPath="$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/gui/Smenarna.java" />
       <change beforePath="$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/listeners/InventoryClick.java" afterPath="$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/listeners/InventoryClick.java" />
       <change beforePath="$PROJECT_DIR$/../BasicLobby/target/BasicLobby-1.1pre.jar" afterPath="$PROJECT_DIR$/../BasicLobby/target/BasicLobby-1.1pre.jar" />
-      <change beforePath="$PROJECT_DIR$/../BasicLobby/target/classes/cz/ignissak/bllobby/gui/Vip.class" afterPath="$PROJECT_DIR$/../BasicLobby/target/classes/cz/ignissak/bllobby/gui/Vip.class" />
+      <change beforePath="$PROJECT_DIR$/../BasicLobby/target/classes/cz/ignissak/bllobby/Core.class" afterPath="$PROJECT_DIR$/../BasicLobby/target/classes/cz/ignissak/bllobby/Core.class" />
+      <change beforePath="$PROJECT_DIR$/../BasicLobby/target/classes/cz/ignissak/bllobby/gui/DailyRewards.class" afterPath="$PROJECT_DIR$/../BasicLobby/target/classes/cz/ignissak/bllobby/gui/DailyRewards.class" />
+      <change beforePath="$PROJECT_DIR$/../BasicLobby/target/classes/cz/ignissak/bllobby/gui/Help.class" afterPath="$PROJECT_DIR$/../BasicLobby/target/classes/cz/ignissak/bllobby/gui/Help.class" />
+      <change beforePath="$PROJECT_DIR$/../BasicLobby/target/classes/cz/ignissak/bllobby/gui/Smenarna.class" afterPath="$PROJECT_DIR$/../BasicLobby/target/classes/cz/ignissak/bllobby/gui/Smenarna.class" />
       <change beforePath="$PROJECT_DIR$/../BasicLobby/target/classes/cz/ignissak/bllobby/listeners/InventoryClick.class" afterPath="$PROJECT_DIR$/../BasicLobby/target/classes/cz/ignissak/bllobby/listeners/InventoryClick.class" />
       <change beforePath="$PROJECT_DIR$/../BasicLobby/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/../BasicLobby/target/maven-archiver/pom.properties" />
+      <change beforePath="$PROJECT_DIR$/../BasicLobby/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/../BasicLobby/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/../BasicLobby/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/../BasicLobby/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
       <change beforePath="$PROJECT_DIR$/../BasicLobby/target/original-BasicLobby-1.1pre.jar" afterPath="$PROJECT_DIR$/../BasicLobby/target/original-BasicLobby-1.1pre.jar" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -39,14 +51,23 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Help.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/gui/Help.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="120" column="43" lean-forward="false" selection-start-line="120" selection-start-column="43" selection-end-line="120" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="DailyRewards.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/gui/DailyRewards.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1288">
-              <caret line="29" column="63" lean-forward="false" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
+            <state relative-caret-position="782">
+              <caret line="89" column="42" lean-forward="false" selection-start-line="89" selection-start-column="42" selection-end-line="89" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1004#1012#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -62,31 +83,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProfilCmd.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/commands/ProfilCmd.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="21" column="8" lean-forward="false" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PenizeCmd.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/commands/PenizeCmd.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="11" column="98" lean-forward="false" selection-start-line="11" selection-start-column="98" selection-end-line="11" selection-end-column="98" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InventoryClick.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="InventoryClick.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/listeners/InventoryClick.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="51" column="43" lean-forward="false" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
+            <state relative-caret-position="2108">
+              <caret line="143" column="46" lean-forward="false" selection-start-line="143" selection-start-column="46" selection-end-line="143" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DailyRewardCmd.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/commands/DailyRewardCmd.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="92" />
               <folding />
             </state>
           </provider>
@@ -95,9 +106,21 @@
       <file leaf-file-name="Core.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/Core.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="87" column="56" lean-forward="false" selection-start-line="87" selection-start-column="56" selection-end-line="87" selection-end-column="56" />
+            <state relative-caret-position="1092">
+              <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BungeeFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/utils/BungeeFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,81 +128,14 @@
       <file leaf-file-name="Smenarna.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/gui/Smenarna.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="40" column="38" lean-forward="false" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+            <state relative-caret-position="1173">
+              <caret line="79" column="34" lean-forward="false" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SQLManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/SQLManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
-              <caret line="72" column="9" lean-forward="false" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
-              <folding>
-                <element signature="method#getTotalVotes#0;class#SQLManager#0" expanded="false" />
-                <element signature="method#getWeeklyVotes#0;class#SQLManager#0" expanded="false" />
-                <element signature="method#getMurderScore#0;class#SQLManager#0" expanded="false" />
-                <element signature="method#getMurderLoses#0;class#SQLManager#0" expanded="false" />
-                <element signature="method#getMurderDeaths#0;class#SQLManager#0" expanded="false" />
-                <element signature="method#getMurderKills#0;class#SQLManager#0" expanded="false" />
-                <element signature="method#getGTDeaths#0;class#SQLManager#0" expanded="false" />
-                <element signature="method#getGTKills#0;class#SQLManager#0" expanded="false" />
-                <element signature="method#getGTWins#0;class#SQLManager#0" expanded="false" />
-                <element signature="method#getGTPvpkills#0;class#SQLManager#0" expanded="false" />
-                <element signature="method#getGTPvpdeaths#0;class#SQLManager#0" expanded="false" />
-                <element signature="method#getGTPvpwins#0;class#SQLManager#0" expanded="false" />
-                <element signature="method#getGTPlayed#0;class#SQLManager#0" expanded="false" />
-                <element signature="method#getGTMostcoins#0;class#SQLManager#0" expanded="false" />
-                <element signature="method#getKBCoins#0;class#SQLManager#0" expanded="false" />
-                <element signature="method#getKBKills#0;class#SQLManager#0" expanded="false" />
-                <element signature="method#getKBDeaths#0;class#SQLManager#0" expanded="false" />
-                <element signature="method#getKBExp#0;class#SQLManager#0" expanded="false" />
-                <element signature="method#getKBKitunlockers#0;class#SQLManager#0" expanded="false" />
-                <element signature="method#getSBWins#0;class#SQLManager#0" expanded="false" />
-                <element signature="method#getSBPbuilds#0;class#SQLManager#0" expanded="false" />
-                <element signature="method#getSBLosses#0;class#SQLManager#0" expanded="false" />
-                <element signature="method#getUHCDeaths#0;class#SQLManager#0" expanded="false" />
-                <element signature="method#getUHCKills#0;class#SQLManager#0" expanded="false" />
-                <element signature="method#getUHCWins#0;class#SQLManager#0" expanded="false" />
-                <element signature="method#getUHCLosses#0;class#SQLManager#0" expanded="false" />
-                <element signature="method#getUHCGameplayed#0;class#SQLManager#0" expanded="false" />
-                <element signature="method#getSWKits#0;class#SQLManager#0" expanded="false" />
-                <marker date="1522174491964" expanded="true" signature="757:826" ph="CREATE TABLE... IF" />
-                <marker date="1522174491964" expanded="true" signature="1145:1271" ph="CREATE TABLE... IF" />
-                <marker date="1522174491964" expanded="true" signature="1145:1277" ph="CREATE TABLE... IF" />
-                <marker date="1522174491964" expanded="true" signature="1609:1653" ph="SELECT * FRO... BL_dailyRewards" />
-                <marker date="1522174491964" expanded="true" signature="2298:2368" ph="INSERT into BL_dailyRewards... " />
-                <marker date="1522174491964" expanded="true" signature="2298:2377" ph="INSERT into BL_dailyRewards... " />
-                <marker date="1522174491964" expanded="true" signature="2298:2388" ph="INSERT into BL_dailyRewards... " />
-                <marker date="1522174491964" expanded="true" signature="2958:2983" ph="UPDATE `BL_dailyRewards`... " />
-                <marker date="1522174491964" expanded="true" signature="2958:3000" ph="UPDATE `Smenarna`... " />
-                <marker date="1522174491964" expanded="true" signature="2958:3015" ph="UPDATE `BL_dailyRewards`... " />
-                <marker date="1522174491964" expanded="true" signature="2958:3017" ph="UPDATE `BL_dailyRewards`... " />
-                <marker date="1522174491964" expanded="true" signature="3535:3585" ph="SELECT id FR... authme" />
-                <marker date="1522174491964" expanded="true" signature="3535:3587" ph="SELECT prvaV... BL_dailyRewards" />
-                <marker date="1522174491964" expanded="true" signature="4294:4354" ph="UPDATE `BL_dailyRewards`... " />
-                <marker date="1522174491964" expanded="true" signature="4873:4926" ph="SELECT druha... BL_dailyRewards" />
-                <marker date="1522174491964" expanded="true" signature="5518:5577" ph="SELECT id FR... Coins_Data" />
-                <marker date="1522174491964" expanded="true" signature="6110:6136" ph="SELECT Weekl... VotingPlugin_Users" />
-                <marker date="1522174491964" expanded="true" signature="6110:6144" ph="SELECT MINUT... Smenarna" />
-                <marker date="1522174491964" expanded="true" signature="6110:6146" ph="SELECT Weekl... VotingPlugin_Users" />
-                <marker date="1522174491964" expanded="true" signature="6675:6705" ph="SELECT TRANS... Smenarna" />
-                <marker date="1522174491964" expanded="true" signature="7362:7411" ph="UPDATE Smenarna... " />
-                <marker date="1522174491964" expanded="true" signature="7362:7412" ph="UPDATE `Smenarna`... " />
-                <marker date="1522174491964" expanded="true" signature="7941:7999" ph="UPDATE `Smenarna`... " />
-                <marker date="1522174491964" expanded="true" signature="8417:8485" ph="SELECT balan... Coins_Data" />
-                <marker date="1522174491964" expanded="true" signature="9018:9087" ph="SELECT balan... Coins_Data" />
-                <marker date="1522174491964" expanded="true" signature="10876:10955" ph="SELECT Month... VotingPlugin_Users" />
-                <marker date="1522174491964" expanded="true" signature="12106:12173" ph="SELECT wins MurderData" />
-                <marker date="1522174491964" expanded="true" signature="27179:27245" ph="SELECT stats... Skywars" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Vip.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Vip.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/gui/Vip.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="391">
@@ -244,13 +200,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/cz/ignissak/bllobby/Core.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/ignissak/bllobby/listeners/PlayerJoin.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/ignissak/bllobby/SQLManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/ignissak/bllobby/listeners/InventoryClick.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/ignissak/bllobby/gui/DailyRewards.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/ignissak/bllobby/listeners/InventoryClick.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cz/ignissak/bllobby/gui/Penize.java" />
         <option value="$PROJECT_DIR$/src/main/java/cz/ignissak/bllobby/listeners/InventoryClick.java" />
         <option value="$PROJECT_DIR$/src/main/java/cz/ignissak/bllobby/listeners/DoubleJump.java" />
         <option value="$PROJECT_DIR$/src/main/java/cz/ignissak/bllobby/listeners/InventoryClick.java" />
@@ -294,7 +243,14 @@
         <option value="$PROJECT_DIR$/src/main/java/cz/ignissak/bllobby/gui/DailyRewards.java" />
         <option value="$PROJECT_DIR$/src/main/java/cz/ignissak/bllobby/gui/Smenarna.java" />
         <option value="$PROJECT_DIR$/src/main/java/cz/ignissak/bllobby/gui/Vip.java" />
-        <option value="$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/listeners/InventoryClick.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/ignissak/bllobby/listeners/InventoryClick.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/ignissak/bllobby/Core.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/ignissak/bllobby/utils/BungeeFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/ignissak/bllobby/listeners/InventoryClick.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/ignissak/bllobby/gui/Smenarna.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cz/ignissak/bllobby/gui/DailyRewards.java" />
+        <option value="$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/gui/Help.java" />
+        <option value="$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/utils/BungeeFactory.java" />
       </list>
     </option>
   </component>
@@ -336,10 +292,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -425,13 +380,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/..////////////////////////NetfireCore" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/..//////////////////////////NetfireCore" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -658,14 +614,17 @@
       <workItem from="1522344714759" duration="767000" />
       <workItem from="1522348858938" duration="599000" />
       <workItem from="1522353935464" duration="780000" />
+      <workItem from="1522696262677" duration="1524000" />
+      <workItem from="1522737235424" duration="332000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="130258000" />
+    <option name="totallyTimeSpent" value="132114000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -675,7 +634,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20986359" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20881426" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20881426" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -717,7 +676,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../MavenNetfireCore/src/main/java/cz/iGniSsak/NFCore/Core.java" />
     <entry file="file://$PROJECT_DIR$/../MavenNetfireCore/src/main/java/cz/iGniSsak/NFCore/gui/Statistiky.java" />
     <entry file="file://$PROJECT_DIR$/../MavenNetfireCore/src/main/java/cz/iGniSsak/NFCore/commands/Stats.java" />
     <entry file="file://$PROJECT_DIR$/../MavenNetfireCore/src/main/java/cz/iGniSsak/NFCore/Core.java" />
@@ -882,14 +840,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/gui/Help.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/commands/HelpCmd.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -928,14 +878,6 @@
             <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
           </first_editor>
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/commands/DailyRewardCmd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="92" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1020,14 +962,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/gui/Vip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/commands/SmenarnaCmd.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -1038,17 +972,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/gui/Smenarna.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="40" column="38" lean-forward="false" selection-start-line="40" selection-start-column="38" selection-end-line="40" selection-end-column="38" />
+        <state relative-caret-position="1173">
+          <caret line="79" column="34" lean-forward="false" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/Core.java">
+    <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/listeners/InventoryClick.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="87" column="56" lean-forward="false" selection-start-line="87" selection-start-column="56" selection-end-line="87" selection-end-column="56" />
+        <state relative-caret-position="2108">
+          <caret line="143" column="46" lean-forward="false" selection-start-line="143" selection-start-column="46" selection-end-line="143" selection-end-column="46" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/commands/DailyRewardCmd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/gui/DailyRewards.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="89" column="42" lean-forward="false" selection-start-line="89" selection-start-column="42" selection-end-line="89" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1062,21 +1014,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/gui/DailyRewards.java">
+    <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/gui/Help.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1288">
-          <caret line="29" column="63" lean-forward="false" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
+        <state relative-caret-position="277">
+          <caret line="120" column="43" lean-forward="false" selection-start-line="120" selection-start-column="43" selection-end-line="120" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/Core.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1092">
+          <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/utils/BungeeFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="15" column="62" lean-forward="false" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1004#1012#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/listeners/InventoryClick.java">
+    <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/gui/Vip.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="51" column="43" lean-forward="false" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
+        <state relative-caret-position="391">
+          <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
           <folding />
         </state>
       </provider>

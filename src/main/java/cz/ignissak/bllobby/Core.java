@@ -103,19 +103,6 @@ public final class Core extends JavaPlugin {
         //Bukkit.getServer().getPluginManager().registerEvents(new PlayerChat(), this);
     }
 
-    public void sendToServer(Player player, String section) {
-        ByteArrayOutputStream b = new ByteArrayOutputStream();
-        DataOutputStream out = new DataOutputStream(b);
-        try {
-            out.writeUTF("Connect");
-            out.writeUTF(section);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-            player.sendPluginMessage(this, "BungeeCord", b.toByteArray());
-    }
-
-
     /*ScoreboardManager m = Bukkit.getScoreboardManager();
         Scoreboard b = m.getNewScoreboard();
 
