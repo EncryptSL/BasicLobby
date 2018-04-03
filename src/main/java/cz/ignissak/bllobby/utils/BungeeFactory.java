@@ -11,6 +11,7 @@ import java.io.DataOutputStream;
 import java.util.HashMap;
 
 public class BungeeFactory {
+    public static HashMap<String, Integer> servers = new HashMap<>();
 
     public static void sendToServer(Player player, String section) {
         ByteArrayOutputStream b = new ByteArrayOutputStream();
@@ -35,15 +36,13 @@ public class BungeeFactory {
         if (subchannel.equals("PlayerCount")) {
             String server = in.readUTF();
             int playerCount = in.readInt();
-
-            HashMap<String, Integer> servers = new HashMap<>();
             servers.put(server, playerCount);
 
         }
 
     }
 
-    public void getCount(Player player, String server) {
+    public static int getCount(Player player, String server) {
 
         /*NOTE
                 If you want to get the total amount of player's on the entire Bungee Network simply use
@@ -51,10 +50,14 @@ public class BungeeFactory {
 
         ByteArrayDataOutput out = ByteStreams.newDataOutput();
         out.writeUTF("PlayerCount");
-        out.writeUTF(server);
+        out.writeUTF(server.toLowerCase());
 
         player.sendPluginMessage(Core.getInstance(), "BungeeCord", out.toByteArray());
 
+        if (servers.containsKey(server.toLowerCase())) {
+            return servers.get(server.toLowerCase());
+        }
+        return -1;
     }
 
 }

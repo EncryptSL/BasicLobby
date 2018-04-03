@@ -11,6 +11,7 @@ cz\ignissak\bllobby\listeners\InventoryClick.class
 cz\ignissak\bllobby\gui\Profil.class
 cz\ignissak\bllobby\listeners\InventoryClick$5.class
 cz\ignissak\bllobby\listeners\WeatherChange.class
+cz\ignissak\bllobby\commands\TestCmd.class
 cz\ignissak\bllobby\SQLManager.class
 cz\ignissak\bllobby\commands\VipCmd.class
 cz\ignissak\bllobby\commands\VelikonocniHlavyCmd.class

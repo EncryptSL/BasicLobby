@@ -91,6 +91,7 @@ public final class Core extends JavaPlugin {
         getCommand("penize").setExecutor(new PenizeCmd());
         getCommand("vip").setExecutor(new VipCmd());
         getCommand("velikonocnihlavy").setExecutor(new VelikonocniHlavyCmd());
+        getCommand("test").setExecutor(new TestCmd());
         //getCommand("token").setExecutor(new TokenCmd());
     }
 

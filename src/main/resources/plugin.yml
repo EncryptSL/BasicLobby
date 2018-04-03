@@ -26,6 +26,9 @@ commands:
   velikonocnihlavy:
     description: Velikonocni hlavy
     usage: /<command>
+  test:
+    description: Testovaci prikaz
+    usage: /<command>
   help:
     description: Hlavni prikaz pro hrace
     usage: /<command>
