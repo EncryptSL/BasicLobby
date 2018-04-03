@@ -5,12 +5,13 @@ import com.google.common.io.ByteArrayDataOutput;
 import com.google.common.io.ByteStreams;
 import cz.ignissak.bllobby.Core;
 import org.bukkit.entity.Player;
+import org.bukkit.plugin.messaging.PluginMessageListener;
 
 import java.io.ByteArrayOutputStream;
 import java.io.DataOutputStream;
 import java.util.HashMap;
 
-public class BungeeFactory {
+public class BungeeFactory implements PluginMessageListener {
     public static HashMap<String, Integer> servers = new HashMap<>();
 
     public static void sendToServer(Player player, String section) {
@@ -25,6 +26,7 @@ public class BungeeFactory {
         player.sendPluginMessage(Core.getInstance(), "BungeeCord", b.toByteArray());
     }
 
+    @Override
     public void onPluginMessageReceived(String channel, Player player, byte[] message) {
         if (!channel.equals("BungeeCord")) {
             return;
@@ -36,7 +38,7 @@ public class BungeeFactory {
         if (subchannel.equals("PlayerCount")) {
             String server = in.readUTF();
             int playerCount = in.readInt();
-            servers.put(server, playerCount);
+            servers.put(server.toLowerCase(), playerCount);
 
         }
 

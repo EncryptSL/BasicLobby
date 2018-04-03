@@ -4,6 +4,7 @@ import com.zaxxer.hikari.HikariDataSource;
 import cz.ignissak.bllobby.commands.*;
 import cz.ignissak.bllobby.gui.Help;
 import cz.ignissak.bllobby.listeners.*;
+import cz.ignissak.bllobby.utils.BungeeFactory;
 import cz.ignissak.bllobby.utils.TPSChecker;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -28,7 +29,8 @@ public final class Core extends JavaPlugin {
     @Override
     public void onEnable() {
         SQLManager sql = new SQLManager();
-        getServer().getMessenger().registerOutgoingPluginChannel(this, "BungeeCord");
+        getServer().getMessenger().registerOutgoingPluginChannel(this,"BungeeCord");
+        getServer().getMessenger().registerIncomingPluginChannel(this, "BungeeCord", new BungeeFactory());
         Bukkit.getConsoleSender().sendMessage(ChatColor.YELLOW + "BungeeCord channel registrovan.");
         saveDefaultConfig();
         instance = this;

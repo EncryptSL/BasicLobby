@@ -7,19 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c13ccc25-29c4-4e74-9116-ecec17149ff9" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/commands/TestCmd.java" />
       <change beforePath="$PROJECT_DIR$/../BasicLobby/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../BasicLobby/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/Core.java" afterPath="$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/Core.java" />
       <change beforePath="$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/utils/BungeeFactory.java" afterPath="$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/utils/BungeeFactory.java" />
-      <change beforePath="$PROJECT_DIR$/../BasicLobby/src/main/resources/plugin.yml" afterPath="$PROJECT_DIR$/../BasicLobby/src/main/resources/plugin.yml" />
       <change beforePath="$PROJECT_DIR$/../BasicLobby/target/BasicLobby-1.1pre.jar" afterPath="$PROJECT_DIR$/../BasicLobby/target/BasicLobby-1.1pre.jar" />
-      <change beforePath="$PROJECT_DIR$/../BasicLobby/target/classes/cz/ignissak/bllobby/Core.class" afterPath="$PROJECT_DIR$/../BasicLobby/target/classes/cz/ignissak/bllobby/Core.class" />
       <change beforePath="$PROJECT_DIR$/../BasicLobby/target/classes/cz/ignissak/bllobby/utils/BungeeFactory.class" afterPath="$PROJECT_DIR$/../BasicLobby/target/classes/cz/ignissak/bllobby/utils/BungeeFactory.class" />
-      <change beforePath="$PROJECT_DIR$/../BasicLobby/target/classes/plugin.yml" afterPath="$PROJECT_DIR$/../BasicLobby/target/classes/plugin.yml" />
       <change beforePath="$PROJECT_DIR$/../BasicLobby/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/../BasicLobby/target/maven-archiver/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/../BasicLobby/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/../BasicLobby/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/../BasicLobby/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/../BasicLobby/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/../BasicLobby/target/original-BasicLobby-1.1pre.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/../BasicLobby/target/original-BasicLobby-1.1pre.jar" afterPath="$PROJECT_DIR$/../BasicLobby/target/original-BasicLobby-1.1pre.jar" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -54,23 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DailyRewards.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/gui/DailyRewards.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="89" column="42" lean-forward="false" selection-start-line="89" selection-start-column="42" selection-end-line="89" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Core.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/Core.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="395">
-              <caret line="93" column="52" lean-forward="false" selection-start-line="93" selection-start-column="52" selection-end-line="93" selection-end-column="52" />
+            <state relative-caret-position="238">
+              <caret line="32" column="104" lean-forward="false" selection-start-line="32" selection-start-column="104" selection-end-line="32" selection-end-column="104" />
               <folding />
             </state>
           </provider>
@@ -99,8 +81,8 @@
       <file leaf-file-name="BungeeFactory.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/utils/BungeeFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="59" column="18" lean-forward="false" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+            <state relative-caret-position="357">
+              <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,6 +96,73 @@
             <state relative-caret-position="672">
               <caret line="79" column="34" lean-forward="false" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SQLManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/SQLManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="695">
+              <caret line="72" column="9" lean-forward="false" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+              <folding>
+                <element signature="method#getTotalVotes#0;class#SQLManager#0" expanded="false" />
+                <element signature="method#getWeeklyVotes#0;class#SQLManager#0" expanded="false" />
+                <element signature="method#getMurderScore#0;class#SQLManager#0" expanded="false" />
+                <element signature="method#getMurderLoses#0;class#SQLManager#0" expanded="false" />
+                <element signature="method#getMurderDeaths#0;class#SQLManager#0" expanded="false" />
+                <element signature="method#getMurderKills#0;class#SQLManager#0" expanded="false" />
+                <element signature="method#getGTDeaths#0;class#SQLManager#0" expanded="false" />
+                <element signature="method#getGTKills#0;class#SQLManager#0" expanded="false" />
+                <element signature="method#getGTWins#0;class#SQLManager#0" expanded="false" />
+                <element signature="method#getGTPvpkills#0;class#SQLManager#0" expanded="false" />
+                <element signature="method#getGTPvpdeaths#0;class#SQLManager#0" expanded="false" />
+                <element signature="method#getGTPvpwins#0;class#SQLManager#0" expanded="false" />
+                <element signature="method#getGTPlayed#0;class#SQLManager#0" expanded="false" />
+                <element signature="method#getGTMostcoins#0;class#SQLManager#0" expanded="false" />
+                <element signature="method#getKBCoins#0;class#SQLManager#0" expanded="false" />
+                <element signature="method#getKBKills#0;class#SQLManager#0" expanded="false" />
+                <element signature="method#getKBDeaths#0;class#SQLManager#0" expanded="false" />
+                <element signature="method#getKBExp#0;class#SQLManager#0" expanded="false" />
+                <element signature="method#getKBKitunlockers#0;class#SQLManager#0" expanded="false" />
+                <element signature="method#getSBWins#0;class#SQLManager#0" expanded="false" />
+                <element signature="method#getSBPbuilds#0;class#SQLManager#0" expanded="false" />
+                <element signature="method#getSBLosses#0;class#SQLManager#0" expanded="false" />
+                <element signature="method#getUHCDeaths#0;class#SQLManager#0" expanded="false" />
+                <element signature="method#getUHCKills#0;class#SQLManager#0" expanded="false" />
+                <element signature="method#getUHCWins#0;class#SQLManager#0" expanded="false" />
+                <element signature="method#getUHCLosses#0;class#SQLManager#0" expanded="false" />
+                <element signature="method#getUHCGameplayed#0;class#SQLManager#0" expanded="false" />
+                <element signature="method#getSWKits#0;class#SQLManager#0" expanded="false" />
+                <marker date="1522174491964" expanded="true" signature="757:826" ph="CREATE TABLE... IF" />
+                <marker date="1522174491964" expanded="true" signature="1145:1271" ph="CREATE TABLE... IF" />
+                <marker date="1522174491964" expanded="true" signature="1145:1277" ph="CREATE TABLE... IF" />
+                <marker date="1522174491964" expanded="true" signature="1609:1653" ph="SELECT * FRO... BL_dailyRewards" />
+                <marker date="1522174491964" expanded="true" signature="2298:2368" ph="INSERT into BL_dailyRewards... " />
+                <marker date="1522174491964" expanded="true" signature="2298:2377" ph="INSERT into BL_dailyRewards... " />
+                <marker date="1522174491964" expanded="true" signature="2298:2388" ph="INSERT into BL_dailyRewards... " />
+                <marker date="1522174491964" expanded="true" signature="2958:2983" ph="UPDATE `BL_dailyRewards`... " />
+                <marker date="1522174491964" expanded="true" signature="2958:3000" ph="UPDATE `Smenarna`... " />
+                <marker date="1522174491964" expanded="true" signature="2958:3015" ph="UPDATE `BL_dailyRewards`... " />
+                <marker date="1522174491964" expanded="true" signature="2958:3017" ph="UPDATE `BL_dailyRewards`... " />
+                <marker date="1522174491964" expanded="true" signature="3535:3585" ph="SELECT id FR... authme" />
+                <marker date="1522174491964" expanded="true" signature="3535:3587" ph="SELECT prvaV... BL_dailyRewards" />
+                <marker date="1522174491964" expanded="true" signature="4294:4354" ph="UPDATE `BL_dailyRewards`... " />
+                <marker date="1522174491964" expanded="true" signature="4873:4926" ph="SELECT druha... BL_dailyRewards" />
+                <marker date="1522174491964" expanded="true" signature="5518:5577" ph="SELECT id FR... Coins_Data" />
+                <marker date="1522174491964" expanded="true" signature="6110:6136" ph="SELECT Weekl... VotingPlugin_Users" />
+                <marker date="1522174491964" expanded="true" signature="6110:6144" ph="SELECT MINUT... Smenarna" />
+                <marker date="1522174491964" expanded="true" signature="6110:6146" ph="SELECT Weekl... VotingPlugin_Users" />
+                <marker date="1522174491964" expanded="true" signature="6675:6705" ph="SELECT TRANS... Smenarna" />
+                <marker date="1522174491964" expanded="true" signature="7362:7411" ph="UPDATE Smenarna... " />
+                <marker date="1522174491964" expanded="true" signature="7362:7412" ph="UPDATE `Smenarna`... " />
+                <marker date="1522174491964" expanded="true" signature="7941:7999" ph="UPDATE `Smenarna`... " />
+                <marker date="1522174491964" expanded="true" signature="8417:8485" ph="SELECT balan... Coins_Data" />
+                <marker date="1522174491964" expanded="true" signature="9018:9087" ph="SELECT balan... Coins_Data" />
+                <marker date="1522174491964" expanded="true" signature="10876:10955" ph="SELECT Month... VotingPlugin_Users" />
+                <marker date="1522174491964" expanded="true" signature="12106:12173" ph="SELECT wins MurderData" />
+                <marker date="1522174491964" expanded="true" signature="27179:27245" ph="SELECT stats... Skywars" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -243,9 +292,9 @@
         <option value="$PROJECT_DIR$/src/main/java/cz/ignissak/bllobby/gui/DailyRewards.java" />
         <option value="$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/gui/Help.java" />
         <option value="$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/commands/TestCmd.java" />
-        <option value="$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/Core.java" />
         <option value="$PROJECT_DIR$/../BasicLobby/src/main/resources/plugin.yml" />
         <option value="$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/utils/BungeeFactory.java" />
+        <option value="$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/Core.java" />
       </list>
     </option>
   </component>
@@ -610,15 +659,16 @@
       <workItem from="1522348858938" duration="599000" />
       <workItem from="1522353935464" duration="780000" />
       <workItem from="1522696262677" duration="1524000" />
-      <workItem from="1522737235424" duration="765000" />
+      <workItem from="1522737235424" duration="1126000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132547000" />
+    <option name="totallyTimeSpent" value="132908000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -628,7 +678,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20986359" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20881426" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20881426" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -876,9 +926,103 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/commands/SmenarnaCmd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="9" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/listeners/InventoryClick.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2108">
+          <caret line="143" column="46" lean-forward="false" selection-start-line="143" selection-start-column="46" selection-end-line="143" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/commands/DailyRewardCmd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/gui/DailyRewards.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="89" column="42" lean-forward="false" selection-start-line="89" selection-start-column="42" selection-end-line="89" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/commands/OdmenyCmd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/gui/Help.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="120" column="43" lean-forward="false" selection-start-line="120" selection-start-column="43" selection-end-line="120" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/gui/Vip.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/gui/Smenarna.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="79" column="34" lean-forward="false" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/commands/TestCmd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="89" lean-forward="false" selection-start-line="14" selection-start-column="89" selection-end-line="14" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/resources/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/resources/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="21" lean-forward="false" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/SQLManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
+        <state relative-caret-position="695">
           <caret line="72" column="9" lean-forward="false" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
           <folding>
             <element signature="method#getTotalVotes#0;class#SQLManager#0" expanded="false" />
@@ -941,112 +1085,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/commands/SmenarnaCmd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="24" column="9" lean-forward="false" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/listeners/InventoryClick.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2108">
-          <caret line="143" column="46" lean-forward="false" selection-start-line="143" selection-start-column="46" selection-end-line="143" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/commands/DailyRewardCmd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="14" column="12" lean-forward="false" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="92" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/gui/DailyRewards.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="89" column="42" lean-forward="false" selection-start-line="89" selection-start-column="42" selection-end-line="89" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/commands/OdmenyCmd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="9" lean-forward="false" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/gui/Help.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="120" column="43" lean-forward="false" selection-start-line="120" selection-start-column="43" selection-end-line="120" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/gui/Vip.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="28" column="30" lean-forward="false" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/gui/Smenarna.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="79" column="34" lean-forward="false" selection-start-line="79" selection-start-column="34" selection-end-line="79" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/commands/TestCmd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="89" lean-forward="false" selection-start-line="14" selection-start-column="89" selection-end-line="14" selection-end-column="89" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/Core.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="93" column="52" lean-forward="false" selection-start-line="93" selection-start-column="52" selection-end-line="93" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/resources/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/resources/plugin.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="21" lean-forward="false" selection-start-line="30" selection-start-column="21" selection-end-line="30" selection-end-column="21" />
+        <state relative-caret-position="238">
+          <caret line="32" column="104" lean-forward="false" selection-start-line="32" selection-start-column="104" selection-end-line="32" selection-end-column="104" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/utils/BungeeFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="59" column="18" lean-forward="false" selection-start-line="59" selection-start-column="18" selection-end-line="59" selection-end-column="18" />
+        <state relative-caret-position="357">
+          <caret line="21" column="34" lean-forward="false" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
