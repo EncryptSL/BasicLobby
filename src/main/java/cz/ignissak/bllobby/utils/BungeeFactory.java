@@ -6,13 +6,17 @@ import com.google.common.io.ByteStreams;
 import cz.ignissak.bllobby.Core;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.messaging.PluginMessageListener;
+import org.bukkit.scheduler.BukkitRunnable;
 
 import java.io.ByteArrayOutputStream;
 import java.io.DataOutputStream;
 import java.util.HashMap;
+import java.util.concurrent.TimeUnit;
 
 public class BungeeFactory implements PluginMessageListener {
+
     public static HashMap<String, Integer> servers = new HashMap<>();
+    public static HashMap<String, String> kdeJe = new HashMap<>();
 
     public static void sendToServer(Player player, String section) {
         ByteArrayOutputStream b = new ByteArrayOutputStream();
@@ -35,31 +39,29 @@ public class BungeeFactory implements PluginMessageListener {
         ByteArrayDataInput in = ByteStreams.newDataInput(message);
         String subchannel = in.readUTF();
 
-        if (subchannel.equals("PlayerCount")) {
+        if (subchannel.equals("GetServer")) {
             String server = in.readUTF();
-            int playerCount = in.readInt();
-            servers.put(server.toLowerCase(), playerCount);
 
+            kdeJe.put(player.getName(), server);
         }
 
     }
 
-    public static int getCount(Player player, String server) {
+
+    public static void getServerName(Player player) {
 
         /*NOTE
                 If you want to get the total amount of player's on the entire Bungee Network simply use
         "ALL" as the String server*/
 
         ByteArrayDataOutput out = ByteStreams.newDataOutput();
-        out.writeUTF("PlayerCount");
-        out.writeUTF(server.toLowerCase());
+        out.writeUTF("GetServer");
 
         player.sendPluginMessage(Core.getInstance(), "BungeeCord", out.toByteArray());
 
-        if (servers.containsKey(server.toLowerCase())) {
-            return servers.get(server.toLowerCase());
-        }
-        return -1;
+        return;
     }
+
+
 
 }

@@ -12,7 +12,10 @@ public class TestCmd implements CommandExecutor {
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         Player p = (Player) sender;
         if (sender.hasPermission("basicland.dev")) {
-            sender.sendMessage("Surv 1.8 players: " + BungeeFactory.getCount(p, "surv18"));
+            //BungeeFactory.setCount(p, "surv18");
+            BungeeFactory.getServerName(p);
+            //sender.sendMessage("Surv 1.8 players: " + BungeeFactory.getCount("surv18"));
+            sender.sendMessage("Si na serveri: " + BungeeFactory.kdeJe.get(p.getName()));
         }
         return true;
     }

@@ -4,7 +4,7 @@
   <groupId>cz.iGniSsak.bllobby</groupId>
   <artifactId>BasicLobby</artifactId>
   <name>BasicLobby</name>
-  <version>1.1pre</version>
+  <version>1.1</version>
   <build>
     <plugins>
       <plugin>
