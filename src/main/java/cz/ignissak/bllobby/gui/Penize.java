@@ -18,7 +18,7 @@ public class Penize {
         ItemStack acz = ItemFactory.create(Material.IRON_BLOCK, (byte) 0, "§c[CZ] §715,000 tokenu (20kc)", "§f", "§fKlikni pro zobrazeni SMS formatu", "§fpro Ceskou republiku.");
         i.setItem(12, acz);
 
-        ItemStack ask = ItemFactory.create(Material.BARRIER, (byte) 0, "§9[SK] §f15,000 tokenu", "§f", "§fTento obnos tokenu neni mozne", "§fpro SK zakoupit.");
+        ItemStack ask = ItemFactory.create(Material.BARRIER, (byte) 0, "§9[SK] §715,000 tokenu", "§f", "§fTento obnos tokenu neni mozne", "§fpro SK zakoupit.");
         i.setItem(21, ask);
 
         ItemStack bcz = ItemFactory.create(Material.GOLD_BLOCK, (byte) 0, "§c[CZ] §740,000 tokenu (50kc)", "§f", "§fKlikni pro zobrazeni SMS formatu", "§fpro Ceskou republiku.");
