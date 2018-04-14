@@ -7,16 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c13ccc25-29c4-4e74-9116-ecec17149ff9" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../BasicLobby/.gitingore" afterPath="$PROJECT_DIR$/../BasicLobby/.gitingore" />
-      <change beforePath="$PROJECT_DIR$/../BasicLobby/.idea/libraries/Maven__com_zaxxer_HikariCP_3_0_0.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../BasicLobby/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_12_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/../BasicLobby/.idea/libraries/Maven__net_md_5_bungeecord_chat_1_12_SNAPSHOT.xml" />
-      <change beforePath="$PROJECT_DIR$/../BasicLobby/.idea/libraries/Maven__org_spigotmc_spigot_api_1_12_2_R0_1_SNAPSHOT.xml" afterPath="$PROJECT_DIR$/../BasicLobby/.idea/libraries/Maven__org_spigotmc_spigot_api_1_12_2_R0_1_SNAPSHOT.xml" />
+      <change beforePath="$PROJECT_DIR$/../BasicLobby/.gitingore" afterPath="$PROJECT_DIR$/../BasicLobby/.gitignore" />
       <change beforePath="$PROJECT_DIR$/../BasicLobby/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../BasicLobby/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../BasicLobby/BasicLobby.iml" afterPath="$PROJECT_DIR$/../BasicLobby/BasicLobby.iml" />
-      <change beforePath="$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/gui/Penize.java" afterPath="$PROJECT_DIR$/../BasicLobby/src/main/java/cz/ignissak/bllobby/gui/Penize.java" />
       <change beforePath="$PROJECT_DIR$/../BasicLobby/target/BasicLobby-1.1.jar" afterPath="$PROJECT_DIR$/../BasicLobby/target/BasicLobby-1.1.jar" />
-      <change beforePath="$PROJECT_DIR$/../BasicLobby/target/classes/cz/ignissak/bllobby/gui/Penize.class" afterPath="$PROJECT_DIR$/../BasicLobby/target/classes/cz/ignissak/bllobby/gui/Penize.class" />
-      <change beforePath="$PROJECT_DIR$/../BasicLobby/target/classes/cz/ignissak/bllobby/utils/BungeeFactory.class" afterPath="$PROJECT_DIR$/../BasicLobby/target/classes/cz/ignissak/bllobby/utils/BungeeFactory.class" />
       <change beforePath="$PROJECT_DIR$/../BasicLobby/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/../BasicLobby/target/maven-archiver/pom.properties" />
       <change beforePath="$PROJECT_DIR$/../BasicLobby/target/original-BasicLobby-1.1.jar" afterPath="$PROJECT_DIR$/../BasicLobby/target/original-BasicLobby-1.1.jar" />
     </list>
@@ -128,8 +121,8 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitingore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../BasicLobby/.gitingore">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../BasicLobby/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
@@ -618,12 +611,12 @@
       <workItem from="1523099797905" duration="1729000" />
       <workItem from="1523119861346" duration="599000" />
       <workItem from="1523195564137" duration="6000" />
-      <workItem from="1523736290464" duration="2263000" />
+      <workItem from="1523736290464" duration="2321000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142031000" />
+    <option name="totallyTimeSpent" value="142089000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -774,7 +767,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../BasicLobby/.gitingore">
+    <entry file="file://$PROJECT_DIR$/../BasicLobby/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
