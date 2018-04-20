@@ -1,6 +1,8 @@
 package cz.ignissak.bllobby.gui;
 
 import cz.ignissak.bllobby.SQLManager;
+import cz.ignissak.bllobby.utils.BungeeFactory;
+import cz.ignissak.bllobby.utils.ItemFactory;
 import org.bukkit.Bukkit;
 import org.bukkit.Material;
 import org.bukkit.entity.Player;
@@ -18,6 +20,7 @@ public class DailyRewards {
         long zostavacas;
         long hodky;
         long minutky;
+        long dny;
         Inventory i = Bukkit.getServer().createInventory(null, 45, "§8Odmeny");
         SQLManager sql = new SQLManager();
         ItemStack empty = new ItemStack(Material.STAINED_GLASS_PANE, 1, (short) 7);
@@ -93,6 +96,49 @@ public class DailyRewards {
         goldMetav.setLore(dailygoldvLore);
         dailygoldv.setItemMeta(goldMetav);
 
+        ItemStack weeklyy = new ItemStack(Material.NETHER_STAR);
+        ItemMeta weeklyyMeta = weeklyy.getItemMeta();
+        weeklyyMeta.setDisplayName("§aTydenni odmena (IRON)");
+        ArrayList<String> weeklyyLore = new ArrayList<String>();
+        weeklyyLore.add("");
+        weeklyyLore.add("§7Tuto odmenu si muzes vyzvednout");
+        weeklyyLore.add("§7kazdy den pokud mas IRON VIP a vys");
+        weeklyyLore.add("§7a ziskat 2x coins booster na minihry.");
+        weeklyyLore.add("");
+        weeklyyLore.add("§aKlikni pro vyzdvihnuti.");
+        weeklyyMeta.setLore(weeklyyLore);
+        weeklyy.setItemMeta(weeklyyMeta); //y
+
+        zostavacas = sql.getDWTrretiCooldown(p) - System.currentTimeMillis();
+        minutky = TimeUnit.MILLISECONDS.toMinutes(zostavacas) % 60;
+        dny = TimeUnit.MILLISECONDS.toDays(zostavacas);
+        hodky = TimeUnit.MILLISECONDS.toHours(zostavacas) % 24;
+        ItemStack weeklyn = new ItemStack(Material.NETHER_STAR);
+        ItemMeta weeklynMeta = weeklyn.getItemMeta();
+        weeklynMeta.setDisplayName("§cTydenni odmena (IRON)");
+        ArrayList<String> weeklynLore = new ArrayList<String>();
+        weeklynLore.add("");
+        weeklynLore.add("§7Tuto odmenu si muzes vyzvednout");
+        weeklynLore.add("§7kazdy den pokud mas IRON VIP a vys");
+        weeklynLore.add("§7a ziskat 2x coins booster na minihry.");
+        weeklynLore.add("");
+        weeklynLore.add("§cPockej jeste " + dny + "d, " + hodky + "h a " + minutky + "m" + " §cpred vyzdvihnutim.");
+        weeklynMeta.setLore(weeklynLore);
+        weeklyn.setItemMeta(weeklynMeta); //y
+
+        ItemStack weeklyv = new ItemStack(Material.NETHER_STAR);
+        ItemMeta weeklyvMeta = weeklyv.getItemMeta();
+        weeklyvMeta.setDisplayName("§cTydenni odmena (IRON)");
+        ArrayList<String> weeklyvLore = new ArrayList<String>();
+        weeklyvLore.add("");
+        weeklyvLore.add("§7Tuto odmenu si muzes vyzvednout");
+        weeklyvLore.add("§7kazdy den pokud mas IRON VIP a vys");
+        weeklyvLore.add("§7a ziskat 2x coins booster na minihry.");
+        weeklyvLore.add("");
+        weeklyvLore.add("§cMusis mit IRON VIP.");
+        weeklyvMeta.setLore(weeklyvLore);
+        weeklyv.setItemMeta(weeklyvMeta); //y
+
         ItemStack comingsoon = new ItemStack(Material.BARRIER);
         ItemMeta csMeta = comingsoon.getItemMeta();
         csMeta.setDisplayName("§8Pripravujeme..");
@@ -103,21 +149,45 @@ public class DailyRewards {
         csMeta.setLore(csLore);
         comingsoon.setItemMeta(csMeta);
 
+
         if (sql.getDWPrvaCooldown(p) < System.currentTimeMillis() || sql.getDWPrvaCooldown(p) == 0) {
-            i.setItem(12 + 9, dailyy);
-        } else if (sql.getDWPrvaCooldown(p) > System.currentTimeMillis()) {
-            i.setItem(12 + 9, dailyn);
+            i.setItem(21, dailyy);
         }
+
+        else if (sql.getDWPrvaCooldown(p) > System.currentTimeMillis()) {
+            i.setItem(21, dailyn);
+        }
+
         if (!(p.hasPermission("basicland.gold"))) {
-            i.setItem(13 + 9, dailygoldv);
-        } else if (p.hasPermission("basicland.gold") || p.hasPermission("*")){
+            i.setItem(23, dailygoldv);
+        }
+
+        else if (p.hasPermission("basicland.gold") || p.hasPermission("*")){
+
             if (sql.getDWDruhaCooldown(p) < System.currentTimeMillis() || sql.getDWDruhaCooldown(p) == 0) {
-                i.setItem(13 + 9, dailygoldy);
-            } else if (sql.getDWDruhaCooldown(p) > System.currentTimeMillis()) {
-                i.setItem(13 + 9, dailygoldn);
+                i.setItem(23, dailygoldy);
+            }
+
+            else if (sql.getDWDruhaCooldown(p) > System.currentTimeMillis()) {
+                i.setItem(23, dailygoldn);
             }
         }
-        i.setItem(14 + 9, comingsoon);
+
+        if (!(p.hasPermission("basicland.iron"))) {
+            i.setItem(22, weeklyv);
+        }
+
+        if (p.hasPermission("basicland.iron") || p.hasPermission("*")) {
+
+            if (sql.getDWTrretiCooldown(p) < System.currentTimeMillis() || sql.getDWTrretiCooldown(p) == 0) {
+                i.setItem(22, weeklyy);
+            }
+
+            else if (sql.getDWTrretiCooldown(p) > System.currentTimeMillis()) {
+                i.setItem(22, weeklyn);
+            }
+        }
+        //i.setItem(14 + 9, comingsoon);
         i.setItem(0, empty);
         i.setItem(1, empty);
         i.setItem(2, empty);

@@ -11,6 +11,17 @@ mysql:
   maximumConnections: 5
   timeout: 3500
 
+mysql2:
+  use: false
+  host: 'localhost'
+  port: 3306
+  user: 'root'
+  database: 'database'
+  password: ''
+  minimumConnections: 2
+  maximumConnections: 5
+  timeout: 3500
+
 # Sprava dennich odmen
 dailyrewards:
   enabled: false

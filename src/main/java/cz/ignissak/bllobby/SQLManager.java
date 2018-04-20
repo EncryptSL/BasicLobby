@@ -141,6 +141,41 @@ public class SQLManager {
         return 0;
     }
 
+    public void setDWTretiCooldown(Player player) {
+        Connection conn = null;
+        PreparedStatement ps = null;
+        try (Connection connection = Core.hikari.getConnection();
+             Statement statement = connection.createStatement();){
+            conn = Core.getInstance().getConnection();
+            ps = conn.prepareStatement("UPDATE `BL_dailyRewards` SET `tretiaVyhra` = ? WHERE Nick = ?;");
+            ps.setLong(1, System.currentTimeMillis() + 604800000);
+            ps.setString(2, player.getName());
+            ps.executeUpdate();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            close(conn, ps, null);
+        }
+    }
+    public long getDWTrretiCooldown(Player player) {
+        Connection conn = null;
+        PreparedStatement ps = null;
+        try {
+            conn = Core.getInstance().getConnection();
+            ps = conn.prepareStatement("SELECT tretiaVyhra FROM BL_dailyRewards WHERE Nick = ?;");
+            ps.setString(1, player.getName());
+            ps.executeQuery();
+            if (ps.getResultSet().next()) {
+                return ps.getResultSet().getLong("tretiaVyhra");
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            close(conn, ps, null);
+        }
+        return 0;
+    }
+
     //Misc
     public int getAuthId(final Player p) {
         Connection conn = null;
@@ -624,6 +659,23 @@ public class SQLManager {
         }
         return 0;
     }
+    public String getKBKits(final Player p) {
+        Connection conn = null;
+        PreparedStatement ps = null;
+        try {
+            conn = Core.getInstance().getConnection();
+            ps = conn.prepareStatement("SELECT Kits FROM kitbattle_ WHERE player_name ='" + p.getName() + "';");
+            ps.executeQuery();
+            if (ps.getResultSet().next()) {
+                return ps.getResultSet().getString("Kits");
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            close(conn, ps, null);
+        }
+        return "0";
+    }
     //
     //Speedbuilders
     public int getSBWins(final Player p) {
@@ -792,6 +844,26 @@ public class SQLManager {
             ps.executeQuery();
             if (ps.getResultSet().next()) {
                 return ps.getResultSet().getString("inventory");
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            close(conn, ps, null);
+        }
+        return "0";
+    }
+
+    //
+    //OTHER
+    public String getFRCount(final Player p) {
+        Connection conn = null;
+        PreparedStatement ps = null;
+        try {
+            conn = Core.getInstance().getConnection();
+            ps = conn.prepareStatement("SELECT friends FROM friends_list WHERE playerName ='" + p.getName() + "';");
+            ps.executeQuery();
+            if (ps.getResultSet().next()) {
+                return ps.getResultSet().getString("friends");
             }
         } catch (Exception e) {
             e.printStackTrace();

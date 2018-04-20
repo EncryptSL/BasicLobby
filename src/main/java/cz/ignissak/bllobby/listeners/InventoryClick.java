@@ -2,6 +2,7 @@ package cz.ignissak.bllobby.listeners;
 
 import cz.ignissak.bllobby.Core;
 import cz.ignissak.bllobby.SQLManager;
+import cz.ignissak.bllobby.gui.DailyRewards;
 import cz.ignissak.bllobby.utils.TitleAPI;
 import net.nifheim.beelzebu.coins.CoinsAPI;
 import org.bukkit.Bukkit;
@@ -17,6 +18,7 @@ public class InventoryClick implements Listener {
 
     @EventHandler
     public void InventoryClick(InventoryClickEvent e) {
+        DailyRewards dw = new DailyRewards();
         SQLManager sql = new SQLManager();
         Player p = (Player) e.getWhoClicked();
         if (e.getInventory().getTitle().equals("§8Tvuj profil")) {
@@ -30,29 +32,41 @@ public class InventoryClick implements Listener {
                     e.getWhoClicked().sendMessage("§aDenni odmena byla vyzdvihnuta.");
                     p.playSound(e.getWhoClicked().getLocation(), Sound.ENTITY_EXPERIENCE_ORB_PICKUP, 1, 0);
                     ParticleEffect.VILLAGER_HAPPY.send(Bukkit.getOnlinePlayers(), e.getWhoClicked().getLocation(), 1, 1, 1, 10, 30);
-                    e.getWhoClicked().closeInventory();
+                    dw.DRewards(p);
                     return;
                 } else if (e.getCurrentItem().getItemMeta().getDisplayName().contains("§cDenni odmena")){
                     p.playSound(e.getWhoClicked().getLocation(), Sound.BLOCK_ANVIL_PLACE, 1, 0);
                     return;
                 }
-            } else if (e.getSlot() == 13 + 9) {
+            } else if (e.getSlot() == 14 + 9) {
                 if (e.getCurrentItem().getItemMeta().getDisplayName().contains("§aDenni odmena (GOLD)")) {
                     sql.setDWDruhaCooldown(p);
                     Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "token give " + e.getWhoClicked().getName() + " 150");
                     e.getWhoClicked().sendMessage("§aDenni odmena (GOLD) byla vyzdvihnuta.");
                     p.playSound(e.getWhoClicked().getLocation(), Sound.ENTITY_EXPERIENCE_ORB_PICKUP, 1, 0);
                     ParticleEffect.VILLAGER_HAPPY.send(Bukkit.getOnlinePlayers(), e.getWhoClicked().getLocation(), 1, 1, 1, 10, 30);
-                    e.getWhoClicked().closeInventory();
+                    dw.DRewards(p);
                     return;
                 } else if (e.getCurrentItem().getItemMeta().getDisplayName().contains("§cDenni odmena (GOLD)")){
                     p.playSound(e.getWhoClicked().getLocation(), Sound.BLOCK_ANVIL_PLACE, 1, 0);
+                    dw.DRewards(p);
                     return;
                 }
-            }else if (e.getSlot() == 14 + 9) {
+            }else if (e.getSlot() == 13 + 9) {
+                if (e.getCurrentItem().getItemMeta().getDisplayName().contains("§aTydenni odmena (IRON)")) {
+                    sql.setDWTretiCooldown(p);
+                    Bukkit.getServer().dispatchCommand(Bukkit.getConsoleSender(), "coins multipliers create " + e.getWhoClicked().getName() + " 2 60 minigames");
+                    e.getWhoClicked().sendMessage("§aTydenni odmena (IRON) byla vyzdvihnuta. Zobraz boostery pomoci /coins multipliers.");
+                    p.playSound(e.getWhoClicked().getLocation(), Sound.ENTITY_EXPERIENCE_ORB_PICKUP, 1, 0);
+                    ParticleEffect.VILLAGER_HAPPY.send(Bukkit.getOnlinePlayers(), e.getWhoClicked().getLocation(), 1, 1, 1, 10, 30);
+                    dw.DRewards(p);
+                    return;
+                } else if (e.getCurrentItem().getItemMeta().getDisplayName().contains("§cTydenni odmena (IRON)")){
                     p.playSound(e.getWhoClicked().getLocation(), Sound.BLOCK_ANVIL_PLACE, 1, 0);
+                    dw.DRewards(p);
                     return;
                 }
+            }
         } if (e.getInventory().getTitle().equals("§8Smenarna")) {
             e.setCancelled(true);
             if (e.getSlot() == 20) { //1

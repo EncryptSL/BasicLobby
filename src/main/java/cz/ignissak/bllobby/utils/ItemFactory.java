@@ -87,7 +87,4 @@ public class ItemFactory {
         return null;
     }
 
-    public static ItemStack create(Material material, byte data, String displayName) {
-        return create(material, data, displayName, null);
-    }
 }

@@ -27,6 +27,7 @@ public class Profil {
         SkullMeta headItemMeta = (SkullMeta) Bukkit.getItemFactory().getItemMeta(Material.SKULL_ITEM);
         headItemMeta.setOwner(p.getName());
         headItemMeta.setDisplayName("§bZakladni statistiky");
+        int friendCounts = (sql.getFRCount(p)).split(",").length;
         ItemStack headItem = new ItemStack(Material.SKULL_ITEM, 1, (short) 3);
         ArrayList<String> headLore = new ArrayList<String>();
         headLore.add("");
@@ -35,6 +36,7 @@ public class Profil {
         headLore.add("");
         headLore.add("§fTvoje Auth ID: §b#" + sql.getAuthId(p));
         headLore.add("§fPocet tokenu: §b" + NumberFormat.getNumberInstance(Locale.US).format(sql.getCoins(p.getUniqueId())));
+        headLore.add("§fPocet pratel: §b" + friendCounts);
         headLore.add("§fPocet hlasu (celkem): §b" + sql.getTotalVotes(p.getUniqueId()));
         headLore.add("§fPocet hlasu (mesic): §b" + sql.getMonthlyVotes(p.getUniqueId()));
         headLore.add("§fPocet hlasu (tyden): §b" + sql.getWeeklyVotes(p.getUniqueId()));
@@ -75,6 +77,7 @@ public class Profil {
 
         ItemStack kitpvp = new ItemStack(Material.GOLD_CHESTPLATE);
         ItemMeta kitpvpmeta = kitpvp.getItemMeta();
+        int KPVPKits = sql.getKBKits(p).split(",").length;
         kitpvpmeta.setDisplayName("§3KitPvP");
         ArrayList<String> kitpvpLore = new ArrayList<String>();
         kitpvpLore.add("");
@@ -83,6 +86,7 @@ public class Profil {
         kitpvpLore.add("§fPocet smrti: §3" + sql.getKBDeaths(p));
         kitpvpLore.add("§fPocet exp: §3" + sql.getKBExp(p));
         kitpvpLore.add("§fPocet kit-unlockeru: §3" + sql.getKBKitunlockers(p));
+        kitpvpLore.add("§fPocet kitu: §3" + KPVPKits);
         kitpvpmeta.setLore(kitpvpLore);
         kitpvp.setItemMeta(kitpvpmeta);
         i.setItem(32, kitpvp);
@@ -139,6 +143,7 @@ public class Profil {
         swmeta.setLore(swLore);
         sw.setItemMeta(swmeta);
         i.setItem(40, sw);
+
 
 
         p.openInventory(i);

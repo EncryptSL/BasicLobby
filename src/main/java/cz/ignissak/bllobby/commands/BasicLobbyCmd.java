@@ -42,8 +42,10 @@ public class BasicLobbyCmd implements CommandExecutor {
             }
             if (args.length == 1) {
                 if (args[0].equalsIgnoreCase("reload")) {
+                    long then = System.currentTimeMillis();
                     Core.getInstance().reloadConfig();
-                    player.sendMessage("§aConfigurace reloadnuta.");
+                    long now = System.currentTimeMillis() - then;
+                    player.sendMessage("§aConfigurace reloadnuta za §f" + now + "ms§a.");
                     return true;
                 } if (args[0].equalsIgnoreCase("reset")) {
                     Core.getInstance().smenarnaCooldown.remove("oncooldown");
